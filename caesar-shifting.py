@@ -1,6 +1,6 @@
 """
 This algorithm called 'Caesar Shifting'.
-This way of encryption method is shifting letters as key number.
+The encryption method of 'Caesar Shifting' is shifting letters until the key number.
 """
 
 # this function encrypts the message. (Returns => (cypher (string), key_stride (integer)))
