@@ -1,5 +1,5 @@
 """
-This algorithm called 'Ceasar Shifting'.
+This algorithm called 'Caesar Shifting'.
 This way of encryption method is shifting letters as key number.
 """
 
