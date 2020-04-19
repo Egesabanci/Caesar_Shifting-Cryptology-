@@ -7,7 +7,7 @@ This way of encryption method is shifting letters as key number.
 def encrypted(key_stride, word):
     stride = (key_stride % 26)
     word = word.lower().strip()
-    alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'] * 50
+    alphabet =  list(string.ascii_lowercase) * 100
     cypher = []
     for letter in word:
         for i in alphabet:
@@ -22,7 +22,7 @@ def encrypted(key_stride, word):
 def decrypted(key_stride, word):
     key_stride = (key_stride % 26)
     word = word.lower().strip()
-    alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'] * 50
+    alphabet =  list(string.ascii_lowercase) * 100
     decode = []
     for letter in word:
         for i in alphabet:
