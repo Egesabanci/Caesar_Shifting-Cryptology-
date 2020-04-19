@@ -5,7 +5,7 @@ The encryption method of 'Caesar Shifting' is shifting letters until the key num
 
 # this function encrypts the message. (Returns => (cypher (string), key_stride (integer)))
 def encrypted(key_stride, word):
-    stride = (key_stride % 26)
+    stride = (key_stride % len(list(string.ascii_lowercase)))
     word = word.lower().strip()
     alphabet =  list(string.ascii_lowercase) * 100
     cypher = []
@@ -20,7 +20,7 @@ def encrypted(key_stride, word):
 
 # this function encrypts the message. (Returns => (decode (string), key_stride (integer)))
 def decrypted(key_stride, word):
-    key_stride = (key_stride % 26)
+    key_stride = (key_stride % len(list(string.ascii_lowercase)))
     word = word.lower().strip()
     alphabet =  list(string.ascii_lowercase) * 100
     decode = []
