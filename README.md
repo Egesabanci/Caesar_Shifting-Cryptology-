@@ -1,6 +1,6 @@
 # Caesar Shifting Encryption Algorithm / Sezar Kaydırma Şifreleme Algoritması
 
-**DİL / LANGUAGE : ENG**
+**DİL / LANGUAGE : EN**
 
 This algorithm is an encryption method that created according to the 'step shifting' logic.
 The encryption method of 'Caesar Shifting' is shifting letters until the key number.
