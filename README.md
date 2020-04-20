@@ -1,4 +1,4 @@
-# Caesar Shifting Encryption Algorithm / Sezar Kayydırma Şifreleme Algoritması
+# Caesar Shifting Encryption Algorithm / Sezar Kaydırma Şifreleme Algoritması
 
 **DİL / LANGUAGE : ENG**
 
