@@ -18,7 +18,7 @@ def encrypted(key_stride, word):
     cypher = ''.join(cypher)
     return (cypher, stride)
 
-# this function encrypts the message. (Returns => (decode (string), key_stride (integer)))
+# this function decrypts the message. (Returns => (decode (string), key_stride (integer)))
 def decrypted(key_stride, word):
     key_stride = (key_stride % len(list(string.ascii_lowercase)))
     word = word.lower().strip()
